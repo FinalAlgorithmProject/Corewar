@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar">
-				<Option output="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug"/>
+				<Option output="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar/fast">
-				<Option output="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug"/>
+				<Option output="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,26 +75,284 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/v/vpoltave/CLionProjects/git_lol/corewar.h">
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_add.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/v/vpoltave/CLionProjects/git_lol/op.h">
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_aff.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/v/vpoltave/CLionProjects/git_lol/vp_virtual_machine/virtual_main.c">
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_and.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/v/vpoltave/CLionProjects/git_lol/vp_virtual_machine/virtualm.h">
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_fork.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/nfs/2016/v/vpoltave/CLionProjects/git_lol/CMakeLists.txt">
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_ld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_ldi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_lfork.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_live.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_lld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_lldi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_or.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_st.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_sti.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_sub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_xor.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/instructions/vp_zjmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/additional_func.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/flag_n.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/new_chmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/reg_dir_ind.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/virtualm.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_basic.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_commands.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_err_u.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_instructions.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_output_err.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/cor/virtual_machine/vp_virtual_main.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/corewar.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_atoi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_bzero.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_cntdigits.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_cntwords.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_isalnum.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_isalpha.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_isascii.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_isdigit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_isprint.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_itoa.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstadd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstdelone.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstiter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_lstnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memalloc.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memccpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memmove.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_memset.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putchar.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putchar_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putendl.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putendl_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putnbr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putnbr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_putstr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strclr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strdup.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_striter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_striteri.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strjoin.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strlcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strlen.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strmapi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strncat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strncmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strncpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strnequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strnstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strrchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strsplit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strsub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_strtrim.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_tolower.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/libft/src/libft/ft_toupper.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/op.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/op.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/y/yzakharc/cursus_42/corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/v/vpoltave/CLionProjects/git_lol
+CMAKE_SOURCE_DIR = /nfs/2016/y/yzakharc/cursus_42/corewar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/CMakeFiles /nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/CMakeFiles /nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/v/vpoltave/CLionProjects/git_lol/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/y/yzakharc/cursus_42/corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,2354 @@ corewar/fast:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/build
 .PHONY : corewar/fast
 
-vp_virtual_machine/virtual_main.o: vp_virtual_machine/virtual_main.c.o
+cor/instructions/vp_add.o: cor/instructions/vp_add.c.o
 
-.PHONY : vp_virtual_machine/virtual_main.o
+.PHONY : cor/instructions/vp_add.o
 
 # target to build an object file
-vp_virtual_machine/virtual_main.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/vp_virtual_machine/virtual_main.c.o
-.PHONY : vp_virtual_machine/virtual_main.c.o
+cor/instructions/vp_add.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_add.c.o
+.PHONY : cor/instructions/vp_add.c.o
 
-vp_virtual_machine/virtual_main.i: vp_virtual_machine/virtual_main.c.i
+cor/instructions/vp_add.i: cor/instructions/vp_add.c.i
 
-.PHONY : vp_virtual_machine/virtual_main.i
+.PHONY : cor/instructions/vp_add.i
 
 # target to preprocess a source file
-vp_virtual_machine/virtual_main.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/vp_virtual_machine/virtual_main.c.i
-.PHONY : vp_virtual_machine/virtual_main.c.i
+cor/instructions/vp_add.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_add.c.i
+.PHONY : cor/instructions/vp_add.c.i
 
-vp_virtual_machine/virtual_main.s: vp_virtual_machine/virtual_main.c.s
+cor/instructions/vp_add.s: cor/instructions/vp_add.c.s
 
-.PHONY : vp_virtual_machine/virtual_main.s
+.PHONY : cor/instructions/vp_add.s
 
 # target to generate assembly for a file
-vp_virtual_machine/virtual_main.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/vp_virtual_machine/virtual_main.c.s
-.PHONY : vp_virtual_machine/virtual_main.c.s
+cor/instructions/vp_add.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_add.c.s
+.PHONY : cor/instructions/vp_add.c.s
+
+cor/instructions/vp_aff.o: cor/instructions/vp_aff.c.o
+
+.PHONY : cor/instructions/vp_aff.o
+
+# target to build an object file
+cor/instructions/vp_aff.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_aff.c.o
+.PHONY : cor/instructions/vp_aff.c.o
+
+cor/instructions/vp_aff.i: cor/instructions/vp_aff.c.i
+
+.PHONY : cor/instructions/vp_aff.i
+
+# target to preprocess a source file
+cor/instructions/vp_aff.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_aff.c.i
+.PHONY : cor/instructions/vp_aff.c.i
+
+cor/instructions/vp_aff.s: cor/instructions/vp_aff.c.s
+
+.PHONY : cor/instructions/vp_aff.s
+
+# target to generate assembly for a file
+cor/instructions/vp_aff.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_aff.c.s
+.PHONY : cor/instructions/vp_aff.c.s
+
+cor/instructions/vp_and.o: cor/instructions/vp_and.c.o
+
+.PHONY : cor/instructions/vp_and.o
+
+# target to build an object file
+cor/instructions/vp_and.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_and.c.o
+.PHONY : cor/instructions/vp_and.c.o
+
+cor/instructions/vp_and.i: cor/instructions/vp_and.c.i
+
+.PHONY : cor/instructions/vp_and.i
+
+# target to preprocess a source file
+cor/instructions/vp_and.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_and.c.i
+.PHONY : cor/instructions/vp_and.c.i
+
+cor/instructions/vp_and.s: cor/instructions/vp_and.c.s
+
+.PHONY : cor/instructions/vp_and.s
+
+# target to generate assembly for a file
+cor/instructions/vp_and.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_and.c.s
+.PHONY : cor/instructions/vp_and.c.s
+
+cor/instructions/vp_fork.o: cor/instructions/vp_fork.c.o
+
+.PHONY : cor/instructions/vp_fork.o
+
+# target to build an object file
+cor/instructions/vp_fork.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_fork.c.o
+.PHONY : cor/instructions/vp_fork.c.o
+
+cor/instructions/vp_fork.i: cor/instructions/vp_fork.c.i
+
+.PHONY : cor/instructions/vp_fork.i
+
+# target to preprocess a source file
+cor/instructions/vp_fork.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_fork.c.i
+.PHONY : cor/instructions/vp_fork.c.i
+
+cor/instructions/vp_fork.s: cor/instructions/vp_fork.c.s
+
+.PHONY : cor/instructions/vp_fork.s
+
+# target to generate assembly for a file
+cor/instructions/vp_fork.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_fork.c.s
+.PHONY : cor/instructions/vp_fork.c.s
+
+cor/instructions/vp_ld.o: cor/instructions/vp_ld.c.o
+
+.PHONY : cor/instructions/vp_ld.o
+
+# target to build an object file
+cor/instructions/vp_ld.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ld.c.o
+.PHONY : cor/instructions/vp_ld.c.o
+
+cor/instructions/vp_ld.i: cor/instructions/vp_ld.c.i
+
+.PHONY : cor/instructions/vp_ld.i
+
+# target to preprocess a source file
+cor/instructions/vp_ld.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ld.c.i
+.PHONY : cor/instructions/vp_ld.c.i
+
+cor/instructions/vp_ld.s: cor/instructions/vp_ld.c.s
+
+.PHONY : cor/instructions/vp_ld.s
+
+# target to generate assembly for a file
+cor/instructions/vp_ld.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ld.c.s
+.PHONY : cor/instructions/vp_ld.c.s
+
+cor/instructions/vp_ldi.o: cor/instructions/vp_ldi.c.o
+
+.PHONY : cor/instructions/vp_ldi.o
+
+# target to build an object file
+cor/instructions/vp_ldi.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ldi.c.o
+.PHONY : cor/instructions/vp_ldi.c.o
+
+cor/instructions/vp_ldi.i: cor/instructions/vp_ldi.c.i
+
+.PHONY : cor/instructions/vp_ldi.i
+
+# target to preprocess a source file
+cor/instructions/vp_ldi.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ldi.c.i
+.PHONY : cor/instructions/vp_ldi.c.i
+
+cor/instructions/vp_ldi.s: cor/instructions/vp_ldi.c.s
+
+.PHONY : cor/instructions/vp_ldi.s
+
+# target to generate assembly for a file
+cor/instructions/vp_ldi.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_ldi.c.s
+.PHONY : cor/instructions/vp_ldi.c.s
+
+cor/instructions/vp_lfork.o: cor/instructions/vp_lfork.c.o
+
+.PHONY : cor/instructions/vp_lfork.o
+
+# target to build an object file
+cor/instructions/vp_lfork.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lfork.c.o
+.PHONY : cor/instructions/vp_lfork.c.o
+
+cor/instructions/vp_lfork.i: cor/instructions/vp_lfork.c.i
+
+.PHONY : cor/instructions/vp_lfork.i
+
+# target to preprocess a source file
+cor/instructions/vp_lfork.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lfork.c.i
+.PHONY : cor/instructions/vp_lfork.c.i
+
+cor/instructions/vp_lfork.s: cor/instructions/vp_lfork.c.s
+
+.PHONY : cor/instructions/vp_lfork.s
+
+# target to generate assembly for a file
+cor/instructions/vp_lfork.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lfork.c.s
+.PHONY : cor/instructions/vp_lfork.c.s
+
+cor/instructions/vp_live.o: cor/instructions/vp_live.c.o
+
+.PHONY : cor/instructions/vp_live.o
+
+# target to build an object file
+cor/instructions/vp_live.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_live.c.o
+.PHONY : cor/instructions/vp_live.c.o
+
+cor/instructions/vp_live.i: cor/instructions/vp_live.c.i
+
+.PHONY : cor/instructions/vp_live.i
+
+# target to preprocess a source file
+cor/instructions/vp_live.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_live.c.i
+.PHONY : cor/instructions/vp_live.c.i
+
+cor/instructions/vp_live.s: cor/instructions/vp_live.c.s
+
+.PHONY : cor/instructions/vp_live.s
+
+# target to generate assembly for a file
+cor/instructions/vp_live.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_live.c.s
+.PHONY : cor/instructions/vp_live.c.s
+
+cor/instructions/vp_lld.o: cor/instructions/vp_lld.c.o
+
+.PHONY : cor/instructions/vp_lld.o
+
+# target to build an object file
+cor/instructions/vp_lld.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lld.c.o
+.PHONY : cor/instructions/vp_lld.c.o
+
+cor/instructions/vp_lld.i: cor/instructions/vp_lld.c.i
+
+.PHONY : cor/instructions/vp_lld.i
+
+# target to preprocess a source file
+cor/instructions/vp_lld.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lld.c.i
+.PHONY : cor/instructions/vp_lld.c.i
+
+cor/instructions/vp_lld.s: cor/instructions/vp_lld.c.s
+
+.PHONY : cor/instructions/vp_lld.s
+
+# target to generate assembly for a file
+cor/instructions/vp_lld.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lld.c.s
+.PHONY : cor/instructions/vp_lld.c.s
+
+cor/instructions/vp_lldi.o: cor/instructions/vp_lldi.c.o
+
+.PHONY : cor/instructions/vp_lldi.o
+
+# target to build an object file
+cor/instructions/vp_lldi.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lldi.c.o
+.PHONY : cor/instructions/vp_lldi.c.o
+
+cor/instructions/vp_lldi.i: cor/instructions/vp_lldi.c.i
+
+.PHONY : cor/instructions/vp_lldi.i
+
+# target to preprocess a source file
+cor/instructions/vp_lldi.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lldi.c.i
+.PHONY : cor/instructions/vp_lldi.c.i
+
+cor/instructions/vp_lldi.s: cor/instructions/vp_lldi.c.s
+
+.PHONY : cor/instructions/vp_lldi.s
+
+# target to generate assembly for a file
+cor/instructions/vp_lldi.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_lldi.c.s
+.PHONY : cor/instructions/vp_lldi.c.s
+
+cor/instructions/vp_or.o: cor/instructions/vp_or.c.o
+
+.PHONY : cor/instructions/vp_or.o
+
+# target to build an object file
+cor/instructions/vp_or.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_or.c.o
+.PHONY : cor/instructions/vp_or.c.o
+
+cor/instructions/vp_or.i: cor/instructions/vp_or.c.i
+
+.PHONY : cor/instructions/vp_or.i
+
+# target to preprocess a source file
+cor/instructions/vp_or.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_or.c.i
+.PHONY : cor/instructions/vp_or.c.i
+
+cor/instructions/vp_or.s: cor/instructions/vp_or.c.s
+
+.PHONY : cor/instructions/vp_or.s
+
+# target to generate assembly for a file
+cor/instructions/vp_or.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_or.c.s
+.PHONY : cor/instructions/vp_or.c.s
+
+cor/instructions/vp_st.o: cor/instructions/vp_st.c.o
+
+.PHONY : cor/instructions/vp_st.o
+
+# target to build an object file
+cor/instructions/vp_st.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_st.c.o
+.PHONY : cor/instructions/vp_st.c.o
+
+cor/instructions/vp_st.i: cor/instructions/vp_st.c.i
+
+.PHONY : cor/instructions/vp_st.i
+
+# target to preprocess a source file
+cor/instructions/vp_st.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_st.c.i
+.PHONY : cor/instructions/vp_st.c.i
+
+cor/instructions/vp_st.s: cor/instructions/vp_st.c.s
+
+.PHONY : cor/instructions/vp_st.s
+
+# target to generate assembly for a file
+cor/instructions/vp_st.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_st.c.s
+.PHONY : cor/instructions/vp_st.c.s
+
+cor/instructions/vp_sti.o: cor/instructions/vp_sti.c.o
+
+.PHONY : cor/instructions/vp_sti.o
+
+# target to build an object file
+cor/instructions/vp_sti.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sti.c.o
+.PHONY : cor/instructions/vp_sti.c.o
+
+cor/instructions/vp_sti.i: cor/instructions/vp_sti.c.i
+
+.PHONY : cor/instructions/vp_sti.i
+
+# target to preprocess a source file
+cor/instructions/vp_sti.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sti.c.i
+.PHONY : cor/instructions/vp_sti.c.i
+
+cor/instructions/vp_sti.s: cor/instructions/vp_sti.c.s
+
+.PHONY : cor/instructions/vp_sti.s
+
+# target to generate assembly for a file
+cor/instructions/vp_sti.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sti.c.s
+.PHONY : cor/instructions/vp_sti.c.s
+
+cor/instructions/vp_sub.o: cor/instructions/vp_sub.c.o
+
+.PHONY : cor/instructions/vp_sub.o
+
+# target to build an object file
+cor/instructions/vp_sub.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sub.c.o
+.PHONY : cor/instructions/vp_sub.c.o
+
+cor/instructions/vp_sub.i: cor/instructions/vp_sub.c.i
+
+.PHONY : cor/instructions/vp_sub.i
+
+# target to preprocess a source file
+cor/instructions/vp_sub.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sub.c.i
+.PHONY : cor/instructions/vp_sub.c.i
+
+cor/instructions/vp_sub.s: cor/instructions/vp_sub.c.s
+
+.PHONY : cor/instructions/vp_sub.s
+
+# target to generate assembly for a file
+cor/instructions/vp_sub.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_sub.c.s
+.PHONY : cor/instructions/vp_sub.c.s
+
+cor/instructions/vp_xor.o: cor/instructions/vp_xor.c.o
+
+.PHONY : cor/instructions/vp_xor.o
+
+# target to build an object file
+cor/instructions/vp_xor.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_xor.c.o
+.PHONY : cor/instructions/vp_xor.c.o
+
+cor/instructions/vp_xor.i: cor/instructions/vp_xor.c.i
+
+.PHONY : cor/instructions/vp_xor.i
+
+# target to preprocess a source file
+cor/instructions/vp_xor.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_xor.c.i
+.PHONY : cor/instructions/vp_xor.c.i
+
+cor/instructions/vp_xor.s: cor/instructions/vp_xor.c.s
+
+.PHONY : cor/instructions/vp_xor.s
+
+# target to generate assembly for a file
+cor/instructions/vp_xor.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_xor.c.s
+.PHONY : cor/instructions/vp_xor.c.s
+
+cor/instructions/vp_zjmp.o: cor/instructions/vp_zjmp.c.o
+
+.PHONY : cor/instructions/vp_zjmp.o
+
+# target to build an object file
+cor/instructions/vp_zjmp.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_zjmp.c.o
+.PHONY : cor/instructions/vp_zjmp.c.o
+
+cor/instructions/vp_zjmp.i: cor/instructions/vp_zjmp.c.i
+
+.PHONY : cor/instructions/vp_zjmp.i
+
+# target to preprocess a source file
+cor/instructions/vp_zjmp.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_zjmp.c.i
+.PHONY : cor/instructions/vp_zjmp.c.i
+
+cor/instructions/vp_zjmp.s: cor/instructions/vp_zjmp.c.s
+
+.PHONY : cor/instructions/vp_zjmp.s
+
+# target to generate assembly for a file
+cor/instructions/vp_zjmp.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/instructions/vp_zjmp.c.s
+.PHONY : cor/instructions/vp_zjmp.c.s
+
+cor/virtual_machine/additional_func.o: cor/virtual_machine/additional_func.c.o
+
+.PHONY : cor/virtual_machine/additional_func.o
+
+# target to build an object file
+cor/virtual_machine/additional_func.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/additional_func.c.o
+.PHONY : cor/virtual_machine/additional_func.c.o
+
+cor/virtual_machine/additional_func.i: cor/virtual_machine/additional_func.c.i
+
+.PHONY : cor/virtual_machine/additional_func.i
+
+# target to preprocess a source file
+cor/virtual_machine/additional_func.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/additional_func.c.i
+.PHONY : cor/virtual_machine/additional_func.c.i
+
+cor/virtual_machine/additional_func.s: cor/virtual_machine/additional_func.c.s
+
+.PHONY : cor/virtual_machine/additional_func.s
+
+# target to generate assembly for a file
+cor/virtual_machine/additional_func.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/additional_func.c.s
+.PHONY : cor/virtual_machine/additional_func.c.s
+
+cor/virtual_machine/flag_n.o: cor/virtual_machine/flag_n.c.o
+
+.PHONY : cor/virtual_machine/flag_n.o
+
+# target to build an object file
+cor/virtual_machine/flag_n.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/flag_n.c.o
+.PHONY : cor/virtual_machine/flag_n.c.o
+
+cor/virtual_machine/flag_n.i: cor/virtual_machine/flag_n.c.i
+
+.PHONY : cor/virtual_machine/flag_n.i
+
+# target to preprocess a source file
+cor/virtual_machine/flag_n.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/flag_n.c.i
+.PHONY : cor/virtual_machine/flag_n.c.i
+
+cor/virtual_machine/flag_n.s: cor/virtual_machine/flag_n.c.s
+
+.PHONY : cor/virtual_machine/flag_n.s
+
+# target to generate assembly for a file
+cor/virtual_machine/flag_n.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/flag_n.c.s
+.PHONY : cor/virtual_machine/flag_n.c.s
+
+cor/virtual_machine/new_chmp.o: cor/virtual_machine/new_chmp.c.o
+
+.PHONY : cor/virtual_machine/new_chmp.o
+
+# target to build an object file
+cor/virtual_machine/new_chmp.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/new_chmp.c.o
+.PHONY : cor/virtual_machine/new_chmp.c.o
+
+cor/virtual_machine/new_chmp.i: cor/virtual_machine/new_chmp.c.i
+
+.PHONY : cor/virtual_machine/new_chmp.i
+
+# target to preprocess a source file
+cor/virtual_machine/new_chmp.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/new_chmp.c.i
+.PHONY : cor/virtual_machine/new_chmp.c.i
+
+cor/virtual_machine/new_chmp.s: cor/virtual_machine/new_chmp.c.s
+
+.PHONY : cor/virtual_machine/new_chmp.s
+
+# target to generate assembly for a file
+cor/virtual_machine/new_chmp.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/new_chmp.c.s
+.PHONY : cor/virtual_machine/new_chmp.c.s
+
+cor/virtual_machine/reg_dir_ind.o: cor/virtual_machine/reg_dir_ind.c.o
+
+.PHONY : cor/virtual_machine/reg_dir_ind.o
+
+# target to build an object file
+cor/virtual_machine/reg_dir_ind.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/reg_dir_ind.c.o
+.PHONY : cor/virtual_machine/reg_dir_ind.c.o
+
+cor/virtual_machine/reg_dir_ind.i: cor/virtual_machine/reg_dir_ind.c.i
+
+.PHONY : cor/virtual_machine/reg_dir_ind.i
+
+# target to preprocess a source file
+cor/virtual_machine/reg_dir_ind.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/reg_dir_ind.c.i
+.PHONY : cor/virtual_machine/reg_dir_ind.c.i
+
+cor/virtual_machine/reg_dir_ind.s: cor/virtual_machine/reg_dir_ind.c.s
+
+.PHONY : cor/virtual_machine/reg_dir_ind.s
+
+# target to generate assembly for a file
+cor/virtual_machine/reg_dir_ind.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/reg_dir_ind.c.s
+.PHONY : cor/virtual_machine/reg_dir_ind.c.s
+
+cor/virtual_machine/vp_basic.o: cor/virtual_machine/vp_basic.c.o
+
+.PHONY : cor/virtual_machine/vp_basic.o
+
+# target to build an object file
+cor/virtual_machine/vp_basic.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_basic.c.o
+.PHONY : cor/virtual_machine/vp_basic.c.o
+
+cor/virtual_machine/vp_basic.i: cor/virtual_machine/vp_basic.c.i
+
+.PHONY : cor/virtual_machine/vp_basic.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_basic.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_basic.c.i
+.PHONY : cor/virtual_machine/vp_basic.c.i
+
+cor/virtual_machine/vp_basic.s: cor/virtual_machine/vp_basic.c.s
+
+.PHONY : cor/virtual_machine/vp_basic.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_basic.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_basic.c.s
+.PHONY : cor/virtual_machine/vp_basic.c.s
+
+cor/virtual_machine/vp_commands.o: cor/virtual_machine/vp_commands.c.o
+
+.PHONY : cor/virtual_machine/vp_commands.o
+
+# target to build an object file
+cor/virtual_machine/vp_commands.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_commands.c.o
+.PHONY : cor/virtual_machine/vp_commands.c.o
+
+cor/virtual_machine/vp_commands.i: cor/virtual_machine/vp_commands.c.i
+
+.PHONY : cor/virtual_machine/vp_commands.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_commands.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_commands.c.i
+.PHONY : cor/virtual_machine/vp_commands.c.i
+
+cor/virtual_machine/vp_commands.s: cor/virtual_machine/vp_commands.c.s
+
+.PHONY : cor/virtual_machine/vp_commands.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_commands.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_commands.c.s
+.PHONY : cor/virtual_machine/vp_commands.c.s
+
+cor/virtual_machine/vp_err_u.o: cor/virtual_machine/vp_err_u.c.o
+
+.PHONY : cor/virtual_machine/vp_err_u.o
+
+# target to build an object file
+cor/virtual_machine/vp_err_u.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_err_u.c.o
+.PHONY : cor/virtual_machine/vp_err_u.c.o
+
+cor/virtual_machine/vp_err_u.i: cor/virtual_machine/vp_err_u.c.i
+
+.PHONY : cor/virtual_machine/vp_err_u.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_err_u.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_err_u.c.i
+.PHONY : cor/virtual_machine/vp_err_u.c.i
+
+cor/virtual_machine/vp_err_u.s: cor/virtual_machine/vp_err_u.c.s
+
+.PHONY : cor/virtual_machine/vp_err_u.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_err_u.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_err_u.c.s
+.PHONY : cor/virtual_machine/vp_err_u.c.s
+
+cor/virtual_machine/vp_instructions.o: cor/virtual_machine/vp_instructions.c.o
+
+.PHONY : cor/virtual_machine/vp_instructions.o
+
+# target to build an object file
+cor/virtual_machine/vp_instructions.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_instructions.c.o
+.PHONY : cor/virtual_machine/vp_instructions.c.o
+
+cor/virtual_machine/vp_instructions.i: cor/virtual_machine/vp_instructions.c.i
+
+.PHONY : cor/virtual_machine/vp_instructions.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_instructions.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_instructions.c.i
+.PHONY : cor/virtual_machine/vp_instructions.c.i
+
+cor/virtual_machine/vp_instructions.s: cor/virtual_machine/vp_instructions.c.s
+
+.PHONY : cor/virtual_machine/vp_instructions.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_instructions.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_instructions.c.s
+.PHONY : cor/virtual_machine/vp_instructions.c.s
+
+cor/virtual_machine/vp_output_err.o: cor/virtual_machine/vp_output_err.c.o
+
+.PHONY : cor/virtual_machine/vp_output_err.o
+
+# target to build an object file
+cor/virtual_machine/vp_output_err.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_output_err.c.o
+.PHONY : cor/virtual_machine/vp_output_err.c.o
+
+cor/virtual_machine/vp_output_err.i: cor/virtual_machine/vp_output_err.c.i
+
+.PHONY : cor/virtual_machine/vp_output_err.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_output_err.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_output_err.c.i
+.PHONY : cor/virtual_machine/vp_output_err.c.i
+
+cor/virtual_machine/vp_output_err.s: cor/virtual_machine/vp_output_err.c.s
+
+.PHONY : cor/virtual_machine/vp_output_err.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_output_err.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_output_err.c.s
+.PHONY : cor/virtual_machine/vp_output_err.c.s
+
+cor/virtual_machine/vp_virtual_main.o: cor/virtual_machine/vp_virtual_main.c.o
+
+.PHONY : cor/virtual_machine/vp_virtual_main.o
+
+# target to build an object file
+cor/virtual_machine/vp_virtual_main.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_virtual_main.c.o
+.PHONY : cor/virtual_machine/vp_virtual_main.c.o
+
+cor/virtual_machine/vp_virtual_main.i: cor/virtual_machine/vp_virtual_main.c.i
+
+.PHONY : cor/virtual_machine/vp_virtual_main.i
+
+# target to preprocess a source file
+cor/virtual_machine/vp_virtual_main.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_virtual_main.c.i
+.PHONY : cor/virtual_machine/vp_virtual_main.c.i
+
+cor/virtual_machine/vp_virtual_main.s: cor/virtual_machine/vp_virtual_main.c.s
+
+.PHONY : cor/virtual_machine/vp_virtual_main.s
+
+# target to generate assembly for a file
+cor/virtual_machine/vp_virtual_main.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/cor/virtual_machine/vp_virtual_main.c.s
+.PHONY : cor/virtual_machine/vp_virtual_main.c.s
+
+libft/src/libft/ft_atoi.o: libft/src/libft/ft_atoi.c.o
+
+.PHONY : libft/src/libft/ft_atoi.o
+
+# target to build an object file
+libft/src/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_atoi.c.o
+.PHONY : libft/src/libft/ft_atoi.c.o
+
+libft/src/libft/ft_atoi.i: libft/src/libft/ft_atoi.c.i
+
+.PHONY : libft/src/libft/ft_atoi.i
+
+# target to preprocess a source file
+libft/src/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_atoi.c.i
+.PHONY : libft/src/libft/ft_atoi.c.i
+
+libft/src/libft/ft_atoi.s: libft/src/libft/ft_atoi.c.s
+
+.PHONY : libft/src/libft/ft_atoi.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_atoi.c.s
+.PHONY : libft/src/libft/ft_atoi.c.s
+
+libft/src/libft/ft_bzero.o: libft/src/libft/ft_bzero.c.o
+
+.PHONY : libft/src/libft/ft_bzero.o
+
+# target to build an object file
+libft/src/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_bzero.c.o
+.PHONY : libft/src/libft/ft_bzero.c.o
+
+libft/src/libft/ft_bzero.i: libft/src/libft/ft_bzero.c.i
+
+.PHONY : libft/src/libft/ft_bzero.i
+
+# target to preprocess a source file
+libft/src/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_bzero.c.i
+.PHONY : libft/src/libft/ft_bzero.c.i
+
+libft/src/libft/ft_bzero.s: libft/src/libft/ft_bzero.c.s
+
+.PHONY : libft/src/libft/ft_bzero.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_bzero.c.s
+.PHONY : libft/src/libft/ft_bzero.c.s
+
+libft/src/libft/ft_cntdigits.o: libft/src/libft/ft_cntdigits.c.o
+
+.PHONY : libft/src/libft/ft_cntdigits.o
+
+# target to build an object file
+libft/src/libft/ft_cntdigits.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntdigits.c.o
+.PHONY : libft/src/libft/ft_cntdigits.c.o
+
+libft/src/libft/ft_cntdigits.i: libft/src/libft/ft_cntdigits.c.i
+
+.PHONY : libft/src/libft/ft_cntdigits.i
+
+# target to preprocess a source file
+libft/src/libft/ft_cntdigits.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntdigits.c.i
+.PHONY : libft/src/libft/ft_cntdigits.c.i
+
+libft/src/libft/ft_cntdigits.s: libft/src/libft/ft_cntdigits.c.s
+
+.PHONY : libft/src/libft/ft_cntdigits.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_cntdigits.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntdigits.c.s
+.PHONY : libft/src/libft/ft_cntdigits.c.s
+
+libft/src/libft/ft_cntwords.o: libft/src/libft/ft_cntwords.c.o
+
+.PHONY : libft/src/libft/ft_cntwords.o
+
+# target to build an object file
+libft/src/libft/ft_cntwords.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntwords.c.o
+.PHONY : libft/src/libft/ft_cntwords.c.o
+
+libft/src/libft/ft_cntwords.i: libft/src/libft/ft_cntwords.c.i
+
+.PHONY : libft/src/libft/ft_cntwords.i
+
+# target to preprocess a source file
+libft/src/libft/ft_cntwords.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntwords.c.i
+.PHONY : libft/src/libft/ft_cntwords.c.i
+
+libft/src/libft/ft_cntwords.s: libft/src/libft/ft_cntwords.c.s
+
+.PHONY : libft/src/libft/ft_cntwords.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_cntwords.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_cntwords.c.s
+.PHONY : libft/src/libft/ft_cntwords.c.s
+
+libft/src/libft/ft_isalnum.o: libft/src/libft/ft_isalnum.c.o
+
+.PHONY : libft/src/libft/ft_isalnum.o
+
+# target to build an object file
+libft/src/libft/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalnum.c.o
+.PHONY : libft/src/libft/ft_isalnum.c.o
+
+libft/src/libft/ft_isalnum.i: libft/src/libft/ft_isalnum.c.i
+
+.PHONY : libft/src/libft/ft_isalnum.i
+
+# target to preprocess a source file
+libft/src/libft/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalnum.c.i
+.PHONY : libft/src/libft/ft_isalnum.c.i
+
+libft/src/libft/ft_isalnum.s: libft/src/libft/ft_isalnum.c.s
+
+.PHONY : libft/src/libft/ft_isalnum.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalnum.c.s
+.PHONY : libft/src/libft/ft_isalnum.c.s
+
+libft/src/libft/ft_isalpha.o: libft/src/libft/ft_isalpha.c.o
+
+.PHONY : libft/src/libft/ft_isalpha.o
+
+# target to build an object file
+libft/src/libft/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalpha.c.o
+.PHONY : libft/src/libft/ft_isalpha.c.o
+
+libft/src/libft/ft_isalpha.i: libft/src/libft/ft_isalpha.c.i
+
+.PHONY : libft/src/libft/ft_isalpha.i
+
+# target to preprocess a source file
+libft/src/libft/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalpha.c.i
+.PHONY : libft/src/libft/ft_isalpha.c.i
+
+libft/src/libft/ft_isalpha.s: libft/src/libft/ft_isalpha.c.s
+
+.PHONY : libft/src/libft/ft_isalpha.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isalpha.c.s
+.PHONY : libft/src/libft/ft_isalpha.c.s
+
+libft/src/libft/ft_isascii.o: libft/src/libft/ft_isascii.c.o
+
+.PHONY : libft/src/libft/ft_isascii.o
+
+# target to build an object file
+libft/src/libft/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isascii.c.o
+.PHONY : libft/src/libft/ft_isascii.c.o
+
+libft/src/libft/ft_isascii.i: libft/src/libft/ft_isascii.c.i
+
+.PHONY : libft/src/libft/ft_isascii.i
+
+# target to preprocess a source file
+libft/src/libft/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isascii.c.i
+.PHONY : libft/src/libft/ft_isascii.c.i
+
+libft/src/libft/ft_isascii.s: libft/src/libft/ft_isascii.c.s
+
+.PHONY : libft/src/libft/ft_isascii.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isascii.c.s
+.PHONY : libft/src/libft/ft_isascii.c.s
+
+libft/src/libft/ft_isdigit.o: libft/src/libft/ft_isdigit.c.o
+
+.PHONY : libft/src/libft/ft_isdigit.o
+
+# target to build an object file
+libft/src/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isdigit.c.o
+.PHONY : libft/src/libft/ft_isdigit.c.o
+
+libft/src/libft/ft_isdigit.i: libft/src/libft/ft_isdigit.c.i
+
+.PHONY : libft/src/libft/ft_isdigit.i
+
+# target to preprocess a source file
+libft/src/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isdigit.c.i
+.PHONY : libft/src/libft/ft_isdigit.c.i
+
+libft/src/libft/ft_isdigit.s: libft/src/libft/ft_isdigit.c.s
+
+.PHONY : libft/src/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isdigit.c.s
+.PHONY : libft/src/libft/ft_isdigit.c.s
+
+libft/src/libft/ft_isprint.o: libft/src/libft/ft_isprint.c.o
+
+.PHONY : libft/src/libft/ft_isprint.o
+
+# target to build an object file
+libft/src/libft/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isprint.c.o
+.PHONY : libft/src/libft/ft_isprint.c.o
+
+libft/src/libft/ft_isprint.i: libft/src/libft/ft_isprint.c.i
+
+.PHONY : libft/src/libft/ft_isprint.i
+
+# target to preprocess a source file
+libft/src/libft/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isprint.c.i
+.PHONY : libft/src/libft/ft_isprint.c.i
+
+libft/src/libft/ft_isprint.s: libft/src/libft/ft_isprint.c.s
+
+.PHONY : libft/src/libft/ft_isprint.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_isprint.c.s
+.PHONY : libft/src/libft/ft_isprint.c.s
+
+libft/src/libft/ft_itoa.o: libft/src/libft/ft_itoa.c.o
+
+.PHONY : libft/src/libft/ft_itoa.o
+
+# target to build an object file
+libft/src/libft/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_itoa.c.o
+.PHONY : libft/src/libft/ft_itoa.c.o
+
+libft/src/libft/ft_itoa.i: libft/src/libft/ft_itoa.c.i
+
+.PHONY : libft/src/libft/ft_itoa.i
+
+# target to preprocess a source file
+libft/src/libft/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_itoa.c.i
+.PHONY : libft/src/libft/ft_itoa.c.i
+
+libft/src/libft/ft_itoa.s: libft/src/libft/ft_itoa.c.s
+
+.PHONY : libft/src/libft/ft_itoa.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_itoa.c.s
+.PHONY : libft/src/libft/ft_itoa.c.s
+
+libft/src/libft/ft_lstadd.o: libft/src/libft/ft_lstadd.c.o
+
+.PHONY : libft/src/libft/ft_lstadd.o
+
+# target to build an object file
+libft/src/libft/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstadd.c.o
+.PHONY : libft/src/libft/ft_lstadd.c.o
+
+libft/src/libft/ft_lstadd.i: libft/src/libft/ft_lstadd.c.i
+
+.PHONY : libft/src/libft/ft_lstadd.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstadd.c.i
+.PHONY : libft/src/libft/ft_lstadd.c.i
+
+libft/src/libft/ft_lstadd.s: libft/src/libft/ft_lstadd.c.s
+
+.PHONY : libft/src/libft/ft_lstadd.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstadd.c.s
+.PHONY : libft/src/libft/ft_lstadd.c.s
+
+libft/src/libft/ft_lstdel.o: libft/src/libft/ft_lstdel.c.o
+
+.PHONY : libft/src/libft/ft_lstdel.o
+
+# target to build an object file
+libft/src/libft/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdel.c.o
+.PHONY : libft/src/libft/ft_lstdel.c.o
+
+libft/src/libft/ft_lstdel.i: libft/src/libft/ft_lstdel.c.i
+
+.PHONY : libft/src/libft/ft_lstdel.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdel.c.i
+.PHONY : libft/src/libft/ft_lstdel.c.i
+
+libft/src/libft/ft_lstdel.s: libft/src/libft/ft_lstdel.c.s
+
+.PHONY : libft/src/libft/ft_lstdel.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdel.c.s
+.PHONY : libft/src/libft/ft_lstdel.c.s
+
+libft/src/libft/ft_lstdelone.o: libft/src/libft/ft_lstdelone.c.o
+
+.PHONY : libft/src/libft/ft_lstdelone.o
+
+# target to build an object file
+libft/src/libft/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdelone.c.o
+.PHONY : libft/src/libft/ft_lstdelone.c.o
+
+libft/src/libft/ft_lstdelone.i: libft/src/libft/ft_lstdelone.c.i
+
+.PHONY : libft/src/libft/ft_lstdelone.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdelone.c.i
+.PHONY : libft/src/libft/ft_lstdelone.c.i
+
+libft/src/libft/ft_lstdelone.s: libft/src/libft/ft_lstdelone.c.s
+
+.PHONY : libft/src/libft/ft_lstdelone.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstdelone.c.s
+.PHONY : libft/src/libft/ft_lstdelone.c.s
+
+libft/src/libft/ft_lstiter.o: libft/src/libft/ft_lstiter.c.o
+
+.PHONY : libft/src/libft/ft_lstiter.o
+
+# target to build an object file
+libft/src/libft/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstiter.c.o
+.PHONY : libft/src/libft/ft_lstiter.c.o
+
+libft/src/libft/ft_lstiter.i: libft/src/libft/ft_lstiter.c.i
+
+.PHONY : libft/src/libft/ft_lstiter.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstiter.c.i
+.PHONY : libft/src/libft/ft_lstiter.c.i
+
+libft/src/libft/ft_lstiter.s: libft/src/libft/ft_lstiter.c.s
+
+.PHONY : libft/src/libft/ft_lstiter.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstiter.c.s
+.PHONY : libft/src/libft/ft_lstiter.c.s
+
+libft/src/libft/ft_lstmap.o: libft/src/libft/ft_lstmap.c.o
+
+.PHONY : libft/src/libft/ft_lstmap.o
+
+# target to build an object file
+libft/src/libft/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstmap.c.o
+.PHONY : libft/src/libft/ft_lstmap.c.o
+
+libft/src/libft/ft_lstmap.i: libft/src/libft/ft_lstmap.c.i
+
+.PHONY : libft/src/libft/ft_lstmap.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstmap.c.i
+.PHONY : libft/src/libft/ft_lstmap.c.i
+
+libft/src/libft/ft_lstmap.s: libft/src/libft/ft_lstmap.c.s
+
+.PHONY : libft/src/libft/ft_lstmap.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstmap.c.s
+.PHONY : libft/src/libft/ft_lstmap.c.s
+
+libft/src/libft/ft_lstnew.o: libft/src/libft/ft_lstnew.c.o
+
+.PHONY : libft/src/libft/ft_lstnew.o
+
+# target to build an object file
+libft/src/libft/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstnew.c.o
+.PHONY : libft/src/libft/ft_lstnew.c.o
+
+libft/src/libft/ft_lstnew.i: libft/src/libft/ft_lstnew.c.i
+
+.PHONY : libft/src/libft/ft_lstnew.i
+
+# target to preprocess a source file
+libft/src/libft/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstnew.c.i
+.PHONY : libft/src/libft/ft_lstnew.c.i
+
+libft/src/libft/ft_lstnew.s: libft/src/libft/ft_lstnew.c.s
+
+.PHONY : libft/src/libft/ft_lstnew.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_lstnew.c.s
+.PHONY : libft/src/libft/ft_lstnew.c.s
+
+libft/src/libft/ft_memalloc.o: libft/src/libft/ft_memalloc.c.o
+
+.PHONY : libft/src/libft/ft_memalloc.o
+
+# target to build an object file
+libft/src/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memalloc.c.o
+.PHONY : libft/src/libft/ft_memalloc.c.o
+
+libft/src/libft/ft_memalloc.i: libft/src/libft/ft_memalloc.c.i
+
+.PHONY : libft/src/libft/ft_memalloc.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memalloc.c.i
+.PHONY : libft/src/libft/ft_memalloc.c.i
+
+libft/src/libft/ft_memalloc.s: libft/src/libft/ft_memalloc.c.s
+
+.PHONY : libft/src/libft/ft_memalloc.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memalloc.c.s
+.PHONY : libft/src/libft/ft_memalloc.c.s
+
+libft/src/libft/ft_memccpy.o: libft/src/libft/ft_memccpy.c.o
+
+.PHONY : libft/src/libft/ft_memccpy.o
+
+# target to build an object file
+libft/src/libft/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memccpy.c.o
+.PHONY : libft/src/libft/ft_memccpy.c.o
+
+libft/src/libft/ft_memccpy.i: libft/src/libft/ft_memccpy.c.i
+
+.PHONY : libft/src/libft/ft_memccpy.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memccpy.c.i
+.PHONY : libft/src/libft/ft_memccpy.c.i
+
+libft/src/libft/ft_memccpy.s: libft/src/libft/ft_memccpy.c.s
+
+.PHONY : libft/src/libft/ft_memccpy.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memccpy.c.s
+.PHONY : libft/src/libft/ft_memccpy.c.s
+
+libft/src/libft/ft_memchr.o: libft/src/libft/ft_memchr.c.o
+
+.PHONY : libft/src/libft/ft_memchr.o
+
+# target to build an object file
+libft/src/libft/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memchr.c.o
+.PHONY : libft/src/libft/ft_memchr.c.o
+
+libft/src/libft/ft_memchr.i: libft/src/libft/ft_memchr.c.i
+
+.PHONY : libft/src/libft/ft_memchr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memchr.c.i
+.PHONY : libft/src/libft/ft_memchr.c.i
+
+libft/src/libft/ft_memchr.s: libft/src/libft/ft_memchr.c.s
+
+.PHONY : libft/src/libft/ft_memchr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memchr.c.s
+.PHONY : libft/src/libft/ft_memchr.c.s
+
+libft/src/libft/ft_memcmp.o: libft/src/libft/ft_memcmp.c.o
+
+.PHONY : libft/src/libft/ft_memcmp.o
+
+# target to build an object file
+libft/src/libft/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcmp.c.o
+.PHONY : libft/src/libft/ft_memcmp.c.o
+
+libft/src/libft/ft_memcmp.i: libft/src/libft/ft_memcmp.c.i
+
+.PHONY : libft/src/libft/ft_memcmp.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcmp.c.i
+.PHONY : libft/src/libft/ft_memcmp.c.i
+
+libft/src/libft/ft_memcmp.s: libft/src/libft/ft_memcmp.c.s
+
+.PHONY : libft/src/libft/ft_memcmp.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcmp.c.s
+.PHONY : libft/src/libft/ft_memcmp.c.s
+
+libft/src/libft/ft_memcpy.o: libft/src/libft/ft_memcpy.c.o
+
+.PHONY : libft/src/libft/ft_memcpy.o
+
+# target to build an object file
+libft/src/libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcpy.c.o
+.PHONY : libft/src/libft/ft_memcpy.c.o
+
+libft/src/libft/ft_memcpy.i: libft/src/libft/ft_memcpy.c.i
+
+.PHONY : libft/src/libft/ft_memcpy.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcpy.c.i
+.PHONY : libft/src/libft/ft_memcpy.c.i
+
+libft/src/libft/ft_memcpy.s: libft/src/libft/ft_memcpy.c.s
+
+.PHONY : libft/src/libft/ft_memcpy.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memcpy.c.s
+.PHONY : libft/src/libft/ft_memcpy.c.s
+
+libft/src/libft/ft_memdel.o: libft/src/libft/ft_memdel.c.o
+
+.PHONY : libft/src/libft/ft_memdel.o
+
+# target to build an object file
+libft/src/libft/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memdel.c.o
+.PHONY : libft/src/libft/ft_memdel.c.o
+
+libft/src/libft/ft_memdel.i: libft/src/libft/ft_memdel.c.i
+
+.PHONY : libft/src/libft/ft_memdel.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memdel.c.i
+.PHONY : libft/src/libft/ft_memdel.c.i
+
+libft/src/libft/ft_memdel.s: libft/src/libft/ft_memdel.c.s
+
+.PHONY : libft/src/libft/ft_memdel.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memdel.c.s
+.PHONY : libft/src/libft/ft_memdel.c.s
+
+libft/src/libft/ft_memmove.o: libft/src/libft/ft_memmove.c.o
+
+.PHONY : libft/src/libft/ft_memmove.o
+
+# target to build an object file
+libft/src/libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memmove.c.o
+.PHONY : libft/src/libft/ft_memmove.c.o
+
+libft/src/libft/ft_memmove.i: libft/src/libft/ft_memmove.c.i
+
+.PHONY : libft/src/libft/ft_memmove.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memmove.c.i
+.PHONY : libft/src/libft/ft_memmove.c.i
+
+libft/src/libft/ft_memmove.s: libft/src/libft/ft_memmove.c.s
+
+.PHONY : libft/src/libft/ft_memmove.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memmove.c.s
+.PHONY : libft/src/libft/ft_memmove.c.s
+
+libft/src/libft/ft_memset.o: libft/src/libft/ft_memset.c.o
+
+.PHONY : libft/src/libft/ft_memset.o
+
+# target to build an object file
+libft/src/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memset.c.o
+.PHONY : libft/src/libft/ft_memset.c.o
+
+libft/src/libft/ft_memset.i: libft/src/libft/ft_memset.c.i
+
+.PHONY : libft/src/libft/ft_memset.i
+
+# target to preprocess a source file
+libft/src/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memset.c.i
+.PHONY : libft/src/libft/ft_memset.c.i
+
+libft/src/libft/ft_memset.s: libft/src/libft/ft_memset.c.s
+
+.PHONY : libft/src/libft/ft_memset.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_memset.c.s
+.PHONY : libft/src/libft/ft_memset.c.s
+
+libft/src/libft/ft_putchar.o: libft/src/libft/ft_putchar.c.o
+
+.PHONY : libft/src/libft/ft_putchar.o
+
+# target to build an object file
+libft/src/libft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar.c.o
+.PHONY : libft/src/libft/ft_putchar.c.o
+
+libft/src/libft/ft_putchar.i: libft/src/libft/ft_putchar.c.i
+
+.PHONY : libft/src/libft/ft_putchar.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar.c.i
+.PHONY : libft/src/libft/ft_putchar.c.i
+
+libft/src/libft/ft_putchar.s: libft/src/libft/ft_putchar.c.s
+
+.PHONY : libft/src/libft/ft_putchar.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar.c.s
+.PHONY : libft/src/libft/ft_putchar.c.s
+
+libft/src/libft/ft_putchar_fd.o: libft/src/libft/ft_putchar_fd.c.o
+
+.PHONY : libft/src/libft/ft_putchar_fd.o
+
+# target to build an object file
+libft/src/libft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar_fd.c.o
+.PHONY : libft/src/libft/ft_putchar_fd.c.o
+
+libft/src/libft/ft_putchar_fd.i: libft/src/libft/ft_putchar_fd.c.i
+
+.PHONY : libft/src/libft/ft_putchar_fd.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar_fd.c.i
+.PHONY : libft/src/libft/ft_putchar_fd.c.i
+
+libft/src/libft/ft_putchar_fd.s: libft/src/libft/ft_putchar_fd.c.s
+
+.PHONY : libft/src/libft/ft_putchar_fd.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putchar_fd.c.s
+.PHONY : libft/src/libft/ft_putchar_fd.c.s
+
+libft/src/libft/ft_putendl.o: libft/src/libft/ft_putendl.c.o
+
+.PHONY : libft/src/libft/ft_putendl.o
+
+# target to build an object file
+libft/src/libft/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl.c.o
+.PHONY : libft/src/libft/ft_putendl.c.o
+
+libft/src/libft/ft_putendl.i: libft/src/libft/ft_putendl.c.i
+
+.PHONY : libft/src/libft/ft_putendl.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl.c.i
+.PHONY : libft/src/libft/ft_putendl.c.i
+
+libft/src/libft/ft_putendl.s: libft/src/libft/ft_putendl.c.s
+
+.PHONY : libft/src/libft/ft_putendl.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl.c.s
+.PHONY : libft/src/libft/ft_putendl.c.s
+
+libft/src/libft/ft_putendl_fd.o: libft/src/libft/ft_putendl_fd.c.o
+
+.PHONY : libft/src/libft/ft_putendl_fd.o
+
+# target to build an object file
+libft/src/libft/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl_fd.c.o
+.PHONY : libft/src/libft/ft_putendl_fd.c.o
+
+libft/src/libft/ft_putendl_fd.i: libft/src/libft/ft_putendl_fd.c.i
+
+.PHONY : libft/src/libft/ft_putendl_fd.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl_fd.c.i
+.PHONY : libft/src/libft/ft_putendl_fd.c.i
+
+libft/src/libft/ft_putendl_fd.s: libft/src/libft/ft_putendl_fd.c.s
+
+.PHONY : libft/src/libft/ft_putendl_fd.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putendl_fd.c.s
+.PHONY : libft/src/libft/ft_putendl_fd.c.s
+
+libft/src/libft/ft_putnbr.o: libft/src/libft/ft_putnbr.c.o
+
+.PHONY : libft/src/libft/ft_putnbr.o
+
+# target to build an object file
+libft/src/libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr.c.o
+.PHONY : libft/src/libft/ft_putnbr.c.o
+
+libft/src/libft/ft_putnbr.i: libft/src/libft/ft_putnbr.c.i
+
+.PHONY : libft/src/libft/ft_putnbr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr.c.i
+.PHONY : libft/src/libft/ft_putnbr.c.i
+
+libft/src/libft/ft_putnbr.s: libft/src/libft/ft_putnbr.c.s
+
+.PHONY : libft/src/libft/ft_putnbr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr.c.s
+.PHONY : libft/src/libft/ft_putnbr.c.s
+
+libft/src/libft/ft_putnbr_fd.o: libft/src/libft/ft_putnbr_fd.c.o
+
+.PHONY : libft/src/libft/ft_putnbr_fd.o
+
+# target to build an object file
+libft/src/libft/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr_fd.c.o
+.PHONY : libft/src/libft/ft_putnbr_fd.c.o
+
+libft/src/libft/ft_putnbr_fd.i: libft/src/libft/ft_putnbr_fd.c.i
+
+.PHONY : libft/src/libft/ft_putnbr_fd.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr_fd.c.i
+.PHONY : libft/src/libft/ft_putnbr_fd.c.i
+
+libft/src/libft/ft_putnbr_fd.s: libft/src/libft/ft_putnbr_fd.c.s
+
+.PHONY : libft/src/libft/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putnbr_fd.c.s
+.PHONY : libft/src/libft/ft_putnbr_fd.c.s
+
+libft/src/libft/ft_putstr.o: libft/src/libft/ft_putstr.c.o
+
+.PHONY : libft/src/libft/ft_putstr.o
+
+# target to build an object file
+libft/src/libft/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr.c.o
+.PHONY : libft/src/libft/ft_putstr.c.o
+
+libft/src/libft/ft_putstr.i: libft/src/libft/ft_putstr.c.i
+
+.PHONY : libft/src/libft/ft_putstr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr.c.i
+.PHONY : libft/src/libft/ft_putstr.c.i
+
+libft/src/libft/ft_putstr.s: libft/src/libft/ft_putstr.c.s
+
+.PHONY : libft/src/libft/ft_putstr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr.c.s
+.PHONY : libft/src/libft/ft_putstr.c.s
+
+libft/src/libft/ft_putstr_fd.o: libft/src/libft/ft_putstr_fd.c.o
+
+.PHONY : libft/src/libft/ft_putstr_fd.o
+
+# target to build an object file
+libft/src/libft/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr_fd.c.o
+.PHONY : libft/src/libft/ft_putstr_fd.c.o
+
+libft/src/libft/ft_putstr_fd.i: libft/src/libft/ft_putstr_fd.c.i
+
+.PHONY : libft/src/libft/ft_putstr_fd.i
+
+# target to preprocess a source file
+libft/src/libft/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr_fd.c.i
+.PHONY : libft/src/libft/ft_putstr_fd.c.i
+
+libft/src/libft/ft_putstr_fd.s: libft/src/libft/ft_putstr_fd.c.s
+
+.PHONY : libft/src/libft/ft_putstr_fd.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_putstr_fd.c.s
+.PHONY : libft/src/libft/ft_putstr_fd.c.s
+
+libft/src/libft/ft_strcat.o: libft/src/libft/ft_strcat.c.o
+
+.PHONY : libft/src/libft/ft_strcat.o
+
+# target to build an object file
+libft/src/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcat.c.o
+.PHONY : libft/src/libft/ft_strcat.c.o
+
+libft/src/libft/ft_strcat.i: libft/src/libft/ft_strcat.c.i
+
+.PHONY : libft/src/libft/ft_strcat.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcat.c.i
+.PHONY : libft/src/libft/ft_strcat.c.i
+
+libft/src/libft/ft_strcat.s: libft/src/libft/ft_strcat.c.s
+
+.PHONY : libft/src/libft/ft_strcat.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcat.c.s
+.PHONY : libft/src/libft/ft_strcat.c.s
+
+libft/src/libft/ft_strchr.o: libft/src/libft/ft_strchr.c.o
+
+.PHONY : libft/src/libft/ft_strchr.o
+
+# target to build an object file
+libft/src/libft/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strchr.c.o
+.PHONY : libft/src/libft/ft_strchr.c.o
+
+libft/src/libft/ft_strchr.i: libft/src/libft/ft_strchr.c.i
+
+.PHONY : libft/src/libft/ft_strchr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strchr.c.i
+.PHONY : libft/src/libft/ft_strchr.c.i
+
+libft/src/libft/ft_strchr.s: libft/src/libft/ft_strchr.c.s
+
+.PHONY : libft/src/libft/ft_strchr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strchr.c.s
+.PHONY : libft/src/libft/ft_strchr.c.s
+
+libft/src/libft/ft_strclr.o: libft/src/libft/ft_strclr.c.o
+
+.PHONY : libft/src/libft/ft_strclr.o
+
+# target to build an object file
+libft/src/libft/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strclr.c.o
+.PHONY : libft/src/libft/ft_strclr.c.o
+
+libft/src/libft/ft_strclr.i: libft/src/libft/ft_strclr.c.i
+
+.PHONY : libft/src/libft/ft_strclr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strclr.c.i
+.PHONY : libft/src/libft/ft_strclr.c.i
+
+libft/src/libft/ft_strclr.s: libft/src/libft/ft_strclr.c.s
+
+.PHONY : libft/src/libft/ft_strclr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strclr.c.s
+.PHONY : libft/src/libft/ft_strclr.c.s
+
+libft/src/libft/ft_strcmp.o: libft/src/libft/ft_strcmp.c.o
+
+.PHONY : libft/src/libft/ft_strcmp.o
+
+# target to build an object file
+libft/src/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcmp.c.o
+.PHONY : libft/src/libft/ft_strcmp.c.o
+
+libft/src/libft/ft_strcmp.i: libft/src/libft/ft_strcmp.c.i
+
+.PHONY : libft/src/libft/ft_strcmp.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcmp.c.i
+.PHONY : libft/src/libft/ft_strcmp.c.i
+
+libft/src/libft/ft_strcmp.s: libft/src/libft/ft_strcmp.c.s
+
+.PHONY : libft/src/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcmp.c.s
+.PHONY : libft/src/libft/ft_strcmp.c.s
+
+libft/src/libft/ft_strcpy.o: libft/src/libft/ft_strcpy.c.o
+
+.PHONY : libft/src/libft/ft_strcpy.o
+
+# target to build an object file
+libft/src/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcpy.c.o
+.PHONY : libft/src/libft/ft_strcpy.c.o
+
+libft/src/libft/ft_strcpy.i: libft/src/libft/ft_strcpy.c.i
+
+.PHONY : libft/src/libft/ft_strcpy.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcpy.c.i
+.PHONY : libft/src/libft/ft_strcpy.c.i
+
+libft/src/libft/ft_strcpy.s: libft/src/libft/ft_strcpy.c.s
+
+.PHONY : libft/src/libft/ft_strcpy.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strcpy.c.s
+.PHONY : libft/src/libft/ft_strcpy.c.s
+
+libft/src/libft/ft_strdel.o: libft/src/libft/ft_strdel.c.o
+
+.PHONY : libft/src/libft/ft_strdel.o
+
+# target to build an object file
+libft/src/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdel.c.o
+.PHONY : libft/src/libft/ft_strdel.c.o
+
+libft/src/libft/ft_strdel.i: libft/src/libft/ft_strdel.c.i
+
+.PHONY : libft/src/libft/ft_strdel.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdel.c.i
+.PHONY : libft/src/libft/ft_strdel.c.i
+
+libft/src/libft/ft_strdel.s: libft/src/libft/ft_strdel.c.s
+
+.PHONY : libft/src/libft/ft_strdel.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdel.c.s
+.PHONY : libft/src/libft/ft_strdel.c.s
+
+libft/src/libft/ft_strdup.o: libft/src/libft/ft_strdup.c.o
+
+.PHONY : libft/src/libft/ft_strdup.o
+
+# target to build an object file
+libft/src/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdup.c.o
+.PHONY : libft/src/libft/ft_strdup.c.o
+
+libft/src/libft/ft_strdup.i: libft/src/libft/ft_strdup.c.i
+
+.PHONY : libft/src/libft/ft_strdup.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdup.c.i
+.PHONY : libft/src/libft/ft_strdup.c.i
+
+libft/src/libft/ft_strdup.s: libft/src/libft/ft_strdup.c.s
+
+.PHONY : libft/src/libft/ft_strdup.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strdup.c.s
+.PHONY : libft/src/libft/ft_strdup.c.s
+
+libft/src/libft/ft_strequ.o: libft/src/libft/ft_strequ.c.o
+
+.PHONY : libft/src/libft/ft_strequ.o
+
+# target to build an object file
+libft/src/libft/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strequ.c.o
+.PHONY : libft/src/libft/ft_strequ.c.o
+
+libft/src/libft/ft_strequ.i: libft/src/libft/ft_strequ.c.i
+
+.PHONY : libft/src/libft/ft_strequ.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strequ.c.i
+.PHONY : libft/src/libft/ft_strequ.c.i
+
+libft/src/libft/ft_strequ.s: libft/src/libft/ft_strequ.c.s
+
+.PHONY : libft/src/libft/ft_strequ.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strequ.c.s
+.PHONY : libft/src/libft/ft_strequ.c.s
+
+libft/src/libft/ft_striter.o: libft/src/libft/ft_striter.c.o
+
+.PHONY : libft/src/libft/ft_striter.o
+
+# target to build an object file
+libft/src/libft/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striter.c.o
+.PHONY : libft/src/libft/ft_striter.c.o
+
+libft/src/libft/ft_striter.i: libft/src/libft/ft_striter.c.i
+
+.PHONY : libft/src/libft/ft_striter.i
+
+# target to preprocess a source file
+libft/src/libft/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striter.c.i
+.PHONY : libft/src/libft/ft_striter.c.i
+
+libft/src/libft/ft_striter.s: libft/src/libft/ft_striter.c.s
+
+.PHONY : libft/src/libft/ft_striter.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striter.c.s
+.PHONY : libft/src/libft/ft_striter.c.s
+
+libft/src/libft/ft_striteri.o: libft/src/libft/ft_striteri.c.o
+
+.PHONY : libft/src/libft/ft_striteri.o
+
+# target to build an object file
+libft/src/libft/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striteri.c.o
+.PHONY : libft/src/libft/ft_striteri.c.o
+
+libft/src/libft/ft_striteri.i: libft/src/libft/ft_striteri.c.i
+
+.PHONY : libft/src/libft/ft_striteri.i
+
+# target to preprocess a source file
+libft/src/libft/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striteri.c.i
+.PHONY : libft/src/libft/ft_striteri.c.i
+
+libft/src/libft/ft_striteri.s: libft/src/libft/ft_striteri.c.s
+
+.PHONY : libft/src/libft/ft_striteri.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_striteri.c.s
+.PHONY : libft/src/libft/ft_striteri.c.s
+
+libft/src/libft/ft_strjoin.o: libft/src/libft/ft_strjoin.c.o
+
+.PHONY : libft/src/libft/ft_strjoin.o
+
+# target to build an object file
+libft/src/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strjoin.c.o
+.PHONY : libft/src/libft/ft_strjoin.c.o
+
+libft/src/libft/ft_strjoin.i: libft/src/libft/ft_strjoin.c.i
+
+.PHONY : libft/src/libft/ft_strjoin.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strjoin.c.i
+.PHONY : libft/src/libft/ft_strjoin.c.i
+
+libft/src/libft/ft_strjoin.s: libft/src/libft/ft_strjoin.c.s
+
+.PHONY : libft/src/libft/ft_strjoin.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strjoin.c.s
+.PHONY : libft/src/libft/ft_strjoin.c.s
+
+libft/src/libft/ft_strlcat.o: libft/src/libft/ft_strlcat.c.o
+
+.PHONY : libft/src/libft/ft_strlcat.o
+
+# target to build an object file
+libft/src/libft/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlcat.c.o
+.PHONY : libft/src/libft/ft_strlcat.c.o
+
+libft/src/libft/ft_strlcat.i: libft/src/libft/ft_strlcat.c.i
+
+.PHONY : libft/src/libft/ft_strlcat.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlcat.c.i
+.PHONY : libft/src/libft/ft_strlcat.c.i
+
+libft/src/libft/ft_strlcat.s: libft/src/libft/ft_strlcat.c.s
+
+.PHONY : libft/src/libft/ft_strlcat.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlcat.c.s
+.PHONY : libft/src/libft/ft_strlcat.c.s
+
+libft/src/libft/ft_strlen.o: libft/src/libft/ft_strlen.c.o
+
+.PHONY : libft/src/libft/ft_strlen.o
+
+# target to build an object file
+libft/src/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlen.c.o
+.PHONY : libft/src/libft/ft_strlen.c.o
+
+libft/src/libft/ft_strlen.i: libft/src/libft/ft_strlen.c.i
+
+.PHONY : libft/src/libft/ft_strlen.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlen.c.i
+.PHONY : libft/src/libft/ft_strlen.c.i
+
+libft/src/libft/ft_strlen.s: libft/src/libft/ft_strlen.c.s
+
+.PHONY : libft/src/libft/ft_strlen.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strlen.c.s
+.PHONY : libft/src/libft/ft_strlen.c.s
+
+libft/src/libft/ft_strmap.o: libft/src/libft/ft_strmap.c.o
+
+.PHONY : libft/src/libft/ft_strmap.o
+
+# target to build an object file
+libft/src/libft/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmap.c.o
+.PHONY : libft/src/libft/ft_strmap.c.o
+
+libft/src/libft/ft_strmap.i: libft/src/libft/ft_strmap.c.i
+
+.PHONY : libft/src/libft/ft_strmap.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmap.c.i
+.PHONY : libft/src/libft/ft_strmap.c.i
+
+libft/src/libft/ft_strmap.s: libft/src/libft/ft_strmap.c.s
+
+.PHONY : libft/src/libft/ft_strmap.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmap.c.s
+.PHONY : libft/src/libft/ft_strmap.c.s
+
+libft/src/libft/ft_strmapi.o: libft/src/libft/ft_strmapi.c.o
+
+.PHONY : libft/src/libft/ft_strmapi.o
+
+# target to build an object file
+libft/src/libft/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmapi.c.o
+.PHONY : libft/src/libft/ft_strmapi.c.o
+
+libft/src/libft/ft_strmapi.i: libft/src/libft/ft_strmapi.c.i
+
+.PHONY : libft/src/libft/ft_strmapi.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmapi.c.i
+.PHONY : libft/src/libft/ft_strmapi.c.i
+
+libft/src/libft/ft_strmapi.s: libft/src/libft/ft_strmapi.c.s
+
+.PHONY : libft/src/libft/ft_strmapi.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strmapi.c.s
+.PHONY : libft/src/libft/ft_strmapi.c.s
+
+libft/src/libft/ft_strncat.o: libft/src/libft/ft_strncat.c.o
+
+.PHONY : libft/src/libft/ft_strncat.o
+
+# target to build an object file
+libft/src/libft/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncat.c.o
+.PHONY : libft/src/libft/ft_strncat.c.o
+
+libft/src/libft/ft_strncat.i: libft/src/libft/ft_strncat.c.i
+
+.PHONY : libft/src/libft/ft_strncat.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncat.c.i
+.PHONY : libft/src/libft/ft_strncat.c.i
+
+libft/src/libft/ft_strncat.s: libft/src/libft/ft_strncat.c.s
+
+.PHONY : libft/src/libft/ft_strncat.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncat.c.s
+.PHONY : libft/src/libft/ft_strncat.c.s
+
+libft/src/libft/ft_strncmp.o: libft/src/libft/ft_strncmp.c.o
+
+.PHONY : libft/src/libft/ft_strncmp.o
+
+# target to build an object file
+libft/src/libft/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncmp.c.o
+.PHONY : libft/src/libft/ft_strncmp.c.o
+
+libft/src/libft/ft_strncmp.i: libft/src/libft/ft_strncmp.c.i
+
+.PHONY : libft/src/libft/ft_strncmp.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncmp.c.i
+.PHONY : libft/src/libft/ft_strncmp.c.i
+
+libft/src/libft/ft_strncmp.s: libft/src/libft/ft_strncmp.c.s
+
+.PHONY : libft/src/libft/ft_strncmp.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncmp.c.s
+.PHONY : libft/src/libft/ft_strncmp.c.s
+
+libft/src/libft/ft_strncpy.o: libft/src/libft/ft_strncpy.c.o
+
+.PHONY : libft/src/libft/ft_strncpy.o
+
+# target to build an object file
+libft/src/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncpy.c.o
+.PHONY : libft/src/libft/ft_strncpy.c.o
+
+libft/src/libft/ft_strncpy.i: libft/src/libft/ft_strncpy.c.i
+
+.PHONY : libft/src/libft/ft_strncpy.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncpy.c.i
+.PHONY : libft/src/libft/ft_strncpy.c.i
+
+libft/src/libft/ft_strncpy.s: libft/src/libft/ft_strncpy.c.s
+
+.PHONY : libft/src/libft/ft_strncpy.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strncpy.c.s
+.PHONY : libft/src/libft/ft_strncpy.c.s
+
+libft/src/libft/ft_strnequ.o: libft/src/libft/ft_strnequ.c.o
+
+.PHONY : libft/src/libft/ft_strnequ.o
+
+# target to build an object file
+libft/src/libft/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnequ.c.o
+.PHONY : libft/src/libft/ft_strnequ.c.o
+
+libft/src/libft/ft_strnequ.i: libft/src/libft/ft_strnequ.c.i
+
+.PHONY : libft/src/libft/ft_strnequ.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnequ.c.i
+.PHONY : libft/src/libft/ft_strnequ.c.i
+
+libft/src/libft/ft_strnequ.s: libft/src/libft/ft_strnequ.c.s
+
+.PHONY : libft/src/libft/ft_strnequ.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnequ.c.s
+.PHONY : libft/src/libft/ft_strnequ.c.s
+
+libft/src/libft/ft_strnew.o: libft/src/libft/ft_strnew.c.o
+
+.PHONY : libft/src/libft/ft_strnew.o
+
+# target to build an object file
+libft/src/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnew.c.o
+.PHONY : libft/src/libft/ft_strnew.c.o
+
+libft/src/libft/ft_strnew.i: libft/src/libft/ft_strnew.c.i
+
+.PHONY : libft/src/libft/ft_strnew.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnew.c.i
+.PHONY : libft/src/libft/ft_strnew.c.i
+
+libft/src/libft/ft_strnew.s: libft/src/libft/ft_strnew.c.s
+
+.PHONY : libft/src/libft/ft_strnew.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnew.c.s
+.PHONY : libft/src/libft/ft_strnew.c.s
+
+libft/src/libft/ft_strnstr.o: libft/src/libft/ft_strnstr.c.o
+
+.PHONY : libft/src/libft/ft_strnstr.o
+
+# target to build an object file
+libft/src/libft/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnstr.c.o
+.PHONY : libft/src/libft/ft_strnstr.c.o
+
+libft/src/libft/ft_strnstr.i: libft/src/libft/ft_strnstr.c.i
+
+.PHONY : libft/src/libft/ft_strnstr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnstr.c.i
+.PHONY : libft/src/libft/ft_strnstr.c.i
+
+libft/src/libft/ft_strnstr.s: libft/src/libft/ft_strnstr.c.s
+
+.PHONY : libft/src/libft/ft_strnstr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strnstr.c.s
+.PHONY : libft/src/libft/ft_strnstr.c.s
+
+libft/src/libft/ft_strrchr.o: libft/src/libft/ft_strrchr.c.o
+
+.PHONY : libft/src/libft/ft_strrchr.o
+
+# target to build an object file
+libft/src/libft/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strrchr.c.o
+.PHONY : libft/src/libft/ft_strrchr.c.o
+
+libft/src/libft/ft_strrchr.i: libft/src/libft/ft_strrchr.c.i
+
+.PHONY : libft/src/libft/ft_strrchr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strrchr.c.i
+.PHONY : libft/src/libft/ft_strrchr.c.i
+
+libft/src/libft/ft_strrchr.s: libft/src/libft/ft_strrchr.c.s
+
+.PHONY : libft/src/libft/ft_strrchr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strrchr.c.s
+.PHONY : libft/src/libft/ft_strrchr.c.s
+
+libft/src/libft/ft_strsplit.o: libft/src/libft/ft_strsplit.c.o
+
+.PHONY : libft/src/libft/ft_strsplit.o
+
+# target to build an object file
+libft/src/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsplit.c.o
+.PHONY : libft/src/libft/ft_strsplit.c.o
+
+libft/src/libft/ft_strsplit.i: libft/src/libft/ft_strsplit.c.i
+
+.PHONY : libft/src/libft/ft_strsplit.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsplit.c.i
+.PHONY : libft/src/libft/ft_strsplit.c.i
+
+libft/src/libft/ft_strsplit.s: libft/src/libft/ft_strsplit.c.s
+
+.PHONY : libft/src/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsplit.c.s
+.PHONY : libft/src/libft/ft_strsplit.c.s
+
+libft/src/libft/ft_strstr.o: libft/src/libft/ft_strstr.c.o
+
+.PHONY : libft/src/libft/ft_strstr.o
+
+# target to build an object file
+libft/src/libft/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strstr.c.o
+.PHONY : libft/src/libft/ft_strstr.c.o
+
+libft/src/libft/ft_strstr.i: libft/src/libft/ft_strstr.c.i
+
+.PHONY : libft/src/libft/ft_strstr.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strstr.c.i
+.PHONY : libft/src/libft/ft_strstr.c.i
+
+libft/src/libft/ft_strstr.s: libft/src/libft/ft_strstr.c.s
+
+.PHONY : libft/src/libft/ft_strstr.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strstr.c.s
+.PHONY : libft/src/libft/ft_strstr.c.s
+
+libft/src/libft/ft_strsub.o: libft/src/libft/ft_strsub.c.o
+
+.PHONY : libft/src/libft/ft_strsub.o
+
+# target to build an object file
+libft/src/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsub.c.o
+.PHONY : libft/src/libft/ft_strsub.c.o
+
+libft/src/libft/ft_strsub.i: libft/src/libft/ft_strsub.c.i
+
+.PHONY : libft/src/libft/ft_strsub.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsub.c.i
+.PHONY : libft/src/libft/ft_strsub.c.i
+
+libft/src/libft/ft_strsub.s: libft/src/libft/ft_strsub.c.s
+
+.PHONY : libft/src/libft/ft_strsub.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strsub.c.s
+.PHONY : libft/src/libft/ft_strsub.c.s
+
+libft/src/libft/ft_strtrim.o: libft/src/libft/ft_strtrim.c.o
+
+.PHONY : libft/src/libft/ft_strtrim.o
+
+# target to build an object file
+libft/src/libft/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strtrim.c.o
+.PHONY : libft/src/libft/ft_strtrim.c.o
+
+libft/src/libft/ft_strtrim.i: libft/src/libft/ft_strtrim.c.i
+
+.PHONY : libft/src/libft/ft_strtrim.i
+
+# target to preprocess a source file
+libft/src/libft/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strtrim.c.i
+.PHONY : libft/src/libft/ft_strtrim.c.i
+
+libft/src/libft/ft_strtrim.s: libft/src/libft/ft_strtrim.c.s
+
+.PHONY : libft/src/libft/ft_strtrim.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_strtrim.c.s
+.PHONY : libft/src/libft/ft_strtrim.c.s
+
+libft/src/libft/ft_tolower.o: libft/src/libft/ft_tolower.c.o
+
+.PHONY : libft/src/libft/ft_tolower.o
+
+# target to build an object file
+libft/src/libft/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_tolower.c.o
+.PHONY : libft/src/libft/ft_tolower.c.o
+
+libft/src/libft/ft_tolower.i: libft/src/libft/ft_tolower.c.i
+
+.PHONY : libft/src/libft/ft_tolower.i
+
+# target to preprocess a source file
+libft/src/libft/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_tolower.c.i
+.PHONY : libft/src/libft/ft_tolower.c.i
+
+libft/src/libft/ft_tolower.s: libft/src/libft/ft_tolower.c.s
+
+.PHONY : libft/src/libft/ft_tolower.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_tolower.c.s
+.PHONY : libft/src/libft/ft_tolower.c.s
+
+libft/src/libft/ft_toupper.o: libft/src/libft/ft_toupper.c.o
+
+.PHONY : libft/src/libft/ft_toupper.o
+
+# target to build an object file
+libft/src/libft/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_toupper.c.o
+.PHONY : libft/src/libft/ft_toupper.c.o
+
+libft/src/libft/ft_toupper.i: libft/src/libft/ft_toupper.c.i
+
+.PHONY : libft/src/libft/ft_toupper.i
+
+# target to preprocess a source file
+libft/src/libft/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_toupper.c.i
+.PHONY : libft/src/libft/ft_toupper.c.i
+
+libft/src/libft/ft_toupper.s: libft/src/libft/ft_toupper.c.s
+
+.PHONY : libft/src/libft/ft_toupper.s
+
+# target to generate assembly for a file
+libft/src/libft/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/src/libft/ft_toupper.c.s
+.PHONY : libft/src/libft/ft_toupper.c.s
+
+op.o: op.c.o
+
+.PHONY : op.o
+
+# target to build an object file
+op.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.o
+.PHONY : op.c.o
+
+op.i: op.c.i
+
+.PHONY : op.i
+
+# target to preprocess a source file
+op.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.i
+.PHONY : op.c.i
+
+op.s: op.c.s
+
+.PHONY : op.s
+
+# target to generate assembly for a file
+op.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.s
+.PHONY : op.c.s
 
 # Help Target
 help:
@@ -159,9 +2481,267 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... corewar"
-	@echo "... vp_virtual_machine/virtual_main.o"
-	@echo "... vp_virtual_machine/virtual_main.i"
-	@echo "... vp_virtual_machine/virtual_main.s"
+	@echo "... cor/instructions/vp_add.o"
+	@echo "... cor/instructions/vp_add.i"
+	@echo "... cor/instructions/vp_add.s"
+	@echo "... cor/instructions/vp_aff.o"
+	@echo "... cor/instructions/vp_aff.i"
+	@echo "... cor/instructions/vp_aff.s"
+	@echo "... cor/instructions/vp_and.o"
+	@echo "... cor/instructions/vp_and.i"
+	@echo "... cor/instructions/vp_and.s"
+	@echo "... cor/instructions/vp_fork.o"
+	@echo "... cor/instructions/vp_fork.i"
+	@echo "... cor/instructions/vp_fork.s"
+	@echo "... cor/instructions/vp_ld.o"
+	@echo "... cor/instructions/vp_ld.i"
+	@echo "... cor/instructions/vp_ld.s"
+	@echo "... cor/instructions/vp_ldi.o"
+	@echo "... cor/instructions/vp_ldi.i"
+	@echo "... cor/instructions/vp_ldi.s"
+	@echo "... cor/instructions/vp_lfork.o"
+	@echo "... cor/instructions/vp_lfork.i"
+	@echo "... cor/instructions/vp_lfork.s"
+	@echo "... cor/instructions/vp_live.o"
+	@echo "... cor/instructions/vp_live.i"
+	@echo "... cor/instructions/vp_live.s"
+	@echo "... cor/instructions/vp_lld.o"
+	@echo "... cor/instructions/vp_lld.i"
+	@echo "... cor/instructions/vp_lld.s"
+	@echo "... cor/instructions/vp_lldi.o"
+	@echo "... cor/instructions/vp_lldi.i"
+	@echo "... cor/instructions/vp_lldi.s"
+	@echo "... cor/instructions/vp_or.o"
+	@echo "... cor/instructions/vp_or.i"
+	@echo "... cor/instructions/vp_or.s"
+	@echo "... cor/instructions/vp_st.o"
+	@echo "... cor/instructions/vp_st.i"
+	@echo "... cor/instructions/vp_st.s"
+	@echo "... cor/instructions/vp_sti.o"
+	@echo "... cor/instructions/vp_sti.i"
+	@echo "... cor/instructions/vp_sti.s"
+	@echo "... cor/instructions/vp_sub.o"
+	@echo "... cor/instructions/vp_sub.i"
+	@echo "... cor/instructions/vp_sub.s"
+	@echo "... cor/instructions/vp_xor.o"
+	@echo "... cor/instructions/vp_xor.i"
+	@echo "... cor/instructions/vp_xor.s"
+	@echo "... cor/instructions/vp_zjmp.o"
+	@echo "... cor/instructions/vp_zjmp.i"
+	@echo "... cor/instructions/vp_zjmp.s"
+	@echo "... cor/virtual_machine/additional_func.o"
+	@echo "... cor/virtual_machine/additional_func.i"
+	@echo "... cor/virtual_machine/additional_func.s"
+	@echo "... cor/virtual_machine/flag_n.o"
+	@echo "... cor/virtual_machine/flag_n.i"
+	@echo "... cor/virtual_machine/flag_n.s"
+	@echo "... cor/virtual_machine/new_chmp.o"
+	@echo "... cor/virtual_machine/new_chmp.i"
+	@echo "... cor/virtual_machine/new_chmp.s"
+	@echo "... cor/virtual_machine/reg_dir_ind.o"
+	@echo "... cor/virtual_machine/reg_dir_ind.i"
+	@echo "... cor/virtual_machine/reg_dir_ind.s"
+	@echo "... cor/virtual_machine/vp_basic.o"
+	@echo "... cor/virtual_machine/vp_basic.i"
+	@echo "... cor/virtual_machine/vp_basic.s"
+	@echo "... cor/virtual_machine/vp_commands.o"
+	@echo "... cor/virtual_machine/vp_commands.i"
+	@echo "... cor/virtual_machine/vp_commands.s"
+	@echo "... cor/virtual_machine/vp_err_u.o"
+	@echo "... cor/virtual_machine/vp_err_u.i"
+	@echo "... cor/virtual_machine/vp_err_u.s"
+	@echo "... cor/virtual_machine/vp_instructions.o"
+	@echo "... cor/virtual_machine/vp_instructions.i"
+	@echo "... cor/virtual_machine/vp_instructions.s"
+	@echo "... cor/virtual_machine/vp_output_err.o"
+	@echo "... cor/virtual_machine/vp_output_err.i"
+	@echo "... cor/virtual_machine/vp_output_err.s"
+	@echo "... cor/virtual_machine/vp_virtual_main.o"
+	@echo "... cor/virtual_machine/vp_virtual_main.i"
+	@echo "... cor/virtual_machine/vp_virtual_main.s"
+	@echo "... libft/src/libft/ft_atoi.o"
+	@echo "... libft/src/libft/ft_atoi.i"
+	@echo "... libft/src/libft/ft_atoi.s"
+	@echo "... libft/src/libft/ft_bzero.o"
+	@echo "... libft/src/libft/ft_bzero.i"
+	@echo "... libft/src/libft/ft_bzero.s"
+	@echo "... libft/src/libft/ft_cntdigits.o"
+	@echo "... libft/src/libft/ft_cntdigits.i"
+	@echo "... libft/src/libft/ft_cntdigits.s"
+	@echo "... libft/src/libft/ft_cntwords.o"
+	@echo "... libft/src/libft/ft_cntwords.i"
+	@echo "... libft/src/libft/ft_cntwords.s"
+	@echo "... libft/src/libft/ft_isalnum.o"
+	@echo "... libft/src/libft/ft_isalnum.i"
+	@echo "... libft/src/libft/ft_isalnum.s"
+	@echo "... libft/src/libft/ft_isalpha.o"
+	@echo "... libft/src/libft/ft_isalpha.i"
+	@echo "... libft/src/libft/ft_isalpha.s"
+	@echo "... libft/src/libft/ft_isascii.o"
+	@echo "... libft/src/libft/ft_isascii.i"
+	@echo "... libft/src/libft/ft_isascii.s"
+	@echo "... libft/src/libft/ft_isdigit.o"
+	@echo "... libft/src/libft/ft_isdigit.i"
+	@echo "... libft/src/libft/ft_isdigit.s"
+	@echo "... libft/src/libft/ft_isprint.o"
+	@echo "... libft/src/libft/ft_isprint.i"
+	@echo "... libft/src/libft/ft_isprint.s"
+	@echo "... libft/src/libft/ft_itoa.o"
+	@echo "... libft/src/libft/ft_itoa.i"
+	@echo "... libft/src/libft/ft_itoa.s"
+	@echo "... libft/src/libft/ft_lstadd.o"
+	@echo "... libft/src/libft/ft_lstadd.i"
+	@echo "... libft/src/libft/ft_lstadd.s"
+	@echo "... libft/src/libft/ft_lstdel.o"
+	@echo "... libft/src/libft/ft_lstdel.i"
+	@echo "... libft/src/libft/ft_lstdel.s"
+	@echo "... libft/src/libft/ft_lstdelone.o"
+	@echo "... libft/src/libft/ft_lstdelone.i"
+	@echo "... libft/src/libft/ft_lstdelone.s"
+	@echo "... libft/src/libft/ft_lstiter.o"
+	@echo "... libft/src/libft/ft_lstiter.i"
+	@echo "... libft/src/libft/ft_lstiter.s"
+	@echo "... libft/src/libft/ft_lstmap.o"
+	@echo "... libft/src/libft/ft_lstmap.i"
+	@echo "... libft/src/libft/ft_lstmap.s"
+	@echo "... libft/src/libft/ft_lstnew.o"
+	@echo "... libft/src/libft/ft_lstnew.i"
+	@echo "... libft/src/libft/ft_lstnew.s"
+	@echo "... libft/src/libft/ft_memalloc.o"
+	@echo "... libft/src/libft/ft_memalloc.i"
+	@echo "... libft/src/libft/ft_memalloc.s"
+	@echo "... libft/src/libft/ft_memccpy.o"
+	@echo "... libft/src/libft/ft_memccpy.i"
+	@echo "... libft/src/libft/ft_memccpy.s"
+	@echo "... libft/src/libft/ft_memchr.o"
+	@echo "... libft/src/libft/ft_memchr.i"
+	@echo "... libft/src/libft/ft_memchr.s"
+	@echo "... libft/src/libft/ft_memcmp.o"
+	@echo "... libft/src/libft/ft_memcmp.i"
+	@echo "... libft/src/libft/ft_memcmp.s"
+	@echo "... libft/src/libft/ft_memcpy.o"
+	@echo "... libft/src/libft/ft_memcpy.i"
+	@echo "... libft/src/libft/ft_memcpy.s"
+	@echo "... libft/src/libft/ft_memdel.o"
+	@echo "... libft/src/libft/ft_memdel.i"
+	@echo "... libft/src/libft/ft_memdel.s"
+	@echo "... libft/src/libft/ft_memmove.o"
+	@echo "... libft/src/libft/ft_memmove.i"
+	@echo "... libft/src/libft/ft_memmove.s"
+	@echo "... libft/src/libft/ft_memset.o"
+	@echo "... libft/src/libft/ft_memset.i"
+	@echo "... libft/src/libft/ft_memset.s"
+	@echo "... libft/src/libft/ft_putchar.o"
+	@echo "... libft/src/libft/ft_putchar.i"
+	@echo "... libft/src/libft/ft_putchar.s"
+	@echo "... libft/src/libft/ft_putchar_fd.o"
+	@echo "... libft/src/libft/ft_putchar_fd.i"
+	@echo "... libft/src/libft/ft_putchar_fd.s"
+	@echo "... libft/src/libft/ft_putendl.o"
+	@echo "... libft/src/libft/ft_putendl.i"
+	@echo "... libft/src/libft/ft_putendl.s"
+	@echo "... libft/src/libft/ft_putendl_fd.o"
+	@echo "... libft/src/libft/ft_putendl_fd.i"
+	@echo "... libft/src/libft/ft_putendl_fd.s"
+	@echo "... libft/src/libft/ft_putnbr.o"
+	@echo "... libft/src/libft/ft_putnbr.i"
+	@echo "... libft/src/libft/ft_putnbr.s"
+	@echo "... libft/src/libft/ft_putnbr_fd.o"
+	@echo "... libft/src/libft/ft_putnbr_fd.i"
+	@echo "... libft/src/libft/ft_putnbr_fd.s"
+	@echo "... libft/src/libft/ft_putstr.o"
+	@echo "... libft/src/libft/ft_putstr.i"
+	@echo "... libft/src/libft/ft_putstr.s"
+	@echo "... libft/src/libft/ft_putstr_fd.o"
+	@echo "... libft/src/libft/ft_putstr_fd.i"
+	@echo "... libft/src/libft/ft_putstr_fd.s"
+	@echo "... libft/src/libft/ft_strcat.o"
+	@echo "... libft/src/libft/ft_strcat.i"
+	@echo "... libft/src/libft/ft_strcat.s"
+	@echo "... libft/src/libft/ft_strchr.o"
+	@echo "... libft/src/libft/ft_strchr.i"
+	@echo "... libft/src/libft/ft_strchr.s"
+	@echo "... libft/src/libft/ft_strclr.o"
+	@echo "... libft/src/libft/ft_strclr.i"
+	@echo "... libft/src/libft/ft_strclr.s"
+	@echo "... libft/src/libft/ft_strcmp.o"
+	@echo "... libft/src/libft/ft_strcmp.i"
+	@echo "... libft/src/libft/ft_strcmp.s"
+	@echo "... libft/src/libft/ft_strcpy.o"
+	@echo "... libft/src/libft/ft_strcpy.i"
+	@echo "... libft/src/libft/ft_strcpy.s"
+	@echo "... libft/src/libft/ft_strdel.o"
+	@echo "... libft/src/libft/ft_strdel.i"
+	@echo "... libft/src/libft/ft_strdel.s"
+	@echo "... libft/src/libft/ft_strdup.o"
+	@echo "... libft/src/libft/ft_strdup.i"
+	@echo "... libft/src/libft/ft_strdup.s"
+	@echo "... libft/src/libft/ft_strequ.o"
+	@echo "... libft/src/libft/ft_strequ.i"
+	@echo "... libft/src/libft/ft_strequ.s"
+	@echo "... libft/src/libft/ft_striter.o"
+	@echo "... libft/src/libft/ft_striter.i"
+	@echo "... libft/src/libft/ft_striter.s"
+	@echo "... libft/src/libft/ft_striteri.o"
+	@echo "... libft/src/libft/ft_striteri.i"
+	@echo "... libft/src/libft/ft_striteri.s"
+	@echo "... libft/src/libft/ft_strjoin.o"
+	@echo "... libft/src/libft/ft_strjoin.i"
+	@echo "... libft/src/libft/ft_strjoin.s"
+	@echo "... libft/src/libft/ft_strlcat.o"
+	@echo "... libft/src/libft/ft_strlcat.i"
+	@echo "... libft/src/libft/ft_strlcat.s"
+	@echo "... libft/src/libft/ft_strlen.o"
+	@echo "... libft/src/libft/ft_strlen.i"
+	@echo "... libft/src/libft/ft_strlen.s"
+	@echo "... libft/src/libft/ft_strmap.o"
+	@echo "... libft/src/libft/ft_strmap.i"
+	@echo "... libft/src/libft/ft_strmap.s"
+	@echo "... libft/src/libft/ft_strmapi.o"
+	@echo "... libft/src/libft/ft_strmapi.i"
+	@echo "... libft/src/libft/ft_strmapi.s"
+	@echo "... libft/src/libft/ft_strncat.o"
+	@echo "... libft/src/libft/ft_strncat.i"
+	@echo "... libft/src/libft/ft_strncat.s"
+	@echo "... libft/src/libft/ft_strncmp.o"
+	@echo "... libft/src/libft/ft_strncmp.i"
+	@echo "... libft/src/libft/ft_strncmp.s"
+	@echo "... libft/src/libft/ft_strncpy.o"
+	@echo "... libft/src/libft/ft_strncpy.i"
+	@echo "... libft/src/libft/ft_strncpy.s"
+	@echo "... libft/src/libft/ft_strnequ.o"
+	@echo "... libft/src/libft/ft_strnequ.i"
+	@echo "... libft/src/libft/ft_strnequ.s"
+	@echo "... libft/src/libft/ft_strnew.o"
+	@echo "... libft/src/libft/ft_strnew.i"
+	@echo "... libft/src/libft/ft_strnew.s"
+	@echo "... libft/src/libft/ft_strnstr.o"
+	@echo "... libft/src/libft/ft_strnstr.i"
+	@echo "... libft/src/libft/ft_strnstr.s"
+	@echo "... libft/src/libft/ft_strrchr.o"
+	@echo "... libft/src/libft/ft_strrchr.i"
+	@echo "... libft/src/libft/ft_strrchr.s"
+	@echo "... libft/src/libft/ft_strsplit.o"
+	@echo "... libft/src/libft/ft_strsplit.i"
+	@echo "... libft/src/libft/ft_strsplit.s"
+	@echo "... libft/src/libft/ft_strstr.o"
+	@echo "... libft/src/libft/ft_strstr.i"
+	@echo "... libft/src/libft/ft_strstr.s"
+	@echo "... libft/src/libft/ft_strsub.o"
+	@echo "... libft/src/libft/ft_strsub.i"
+	@echo "... libft/src/libft/ft_strsub.s"
+	@echo "... libft/src/libft/ft_strtrim.o"
+	@echo "... libft/src/libft/ft_strtrim.i"
+	@echo "... libft/src/libft/ft_strtrim.s"
+	@echo "... libft/src/libft/ft_tolower.o"
+	@echo "... libft/src/libft/ft_tolower.i"
+	@echo "... libft/src/libft/ft_tolower.s"
+	@echo "... libft/src/libft/ft_toupper.o"
+	@echo "... libft/src/libft/ft_toupper.i"
+	@echo "... libft/src/libft/ft_toupper.s"
+	@echo "... op.o"
+	@echo "... op.i"
+	@echo "... op.s"
 .PHONY : help
 
 

@@ -16,8 +16,8 @@
 */
 
 #define IND_SIZE				2
-#define REG_SIZE				4
-#define DIR_SIZE				REG_SIZE
+#define REG_SIZE				1 // was 4
+#define DIR_SIZE				IND_SIZE // was REG_SIZE
 
 
 # define REG_CODE				1
@@ -57,15 +57,14 @@ typedef char					t_arg_type;
 #define T_REG					1
 #define T_DIR					2
 #define T_IND					4
-#define T_LAB					8
 
 /*
 **
 */
 
-# define PROG_NAME_LENGTH		(128)
-# define COMMENT_LENGTH			(2048)
-# define COREWAR_EXEC_MAGIC		0xea83f3
+#define PROG_NAME_LENGTH		(128)
+#define COMMENT_LENGTH			(2048)
+#define COREWAR_EXEC_MAGIC		0xea83f3
 
 typedef struct					header_s
 {
