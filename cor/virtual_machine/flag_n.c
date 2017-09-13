@@ -17,6 +17,7 @@ void	flag_n(char *nbr_player, t_skrr *skrr)
 	int 	nbr;
 
 	nbr = (int)ft_atoi(nbr_player);
-	(nbr > 0 && nbr < 5) ? skrr->nbr_player = nbr : 0;
+	nbr < 0 || nbr > skrr->max_player ?
+	(nbr > 0 && nbr < skrr->max_player) ? skrr->nbr_player = nbr : 0;
 	skrr->j = nbr == 0 ? skrr->j + 1 : skrr->j + 2;
 }

@@ -65,6 +65,7 @@ typedef struct		s_skrr
 {
 	int 			fd;
 	unsigned int	i;
+	int 			max_player;
 	int 			j;
 	int 			n;
 	int 			op;

@@ -22,6 +22,7 @@ void	init(t_skrr *skrr)
 	skrr->shift = 0;
 	skrr->flag = -1;
 	skrr->nbr_player = 0;
+	skrr->max_player = 0;
 //	skrr->ncurses_mode = 0;
 	g_iter = 0;
 	g_CTD = 0;
@@ -83,7 +84,7 @@ void	usage_e(void)
 			  "    -b        : Binary output mode for corewar.42.fr\n"
 			  "    --stealth : Hides the real contents of the memory\n"
 			  CYN"NCURSES OUTPUT MODE\n"RESET
-			  "    -n        : Ncurses output mode\n"
+			  "    -v        : Ncurses output mode\n"
 			  "    --stealth : Hides the real contents of the "
 			  "memory\n");
 }
